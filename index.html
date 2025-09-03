@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPod Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ipod">
+        <div class="screen" id="screen">
+            <div class="screen-header">
+                iPod
+            </div>
+            <ul class="menu-list" id="menu-list">
+                <li class="menu-item active">Música</li>
+                <li class="menu-item">Radio</li>
+                <li class="menu-item">Ajustes</li>
+                <li class="menu-item">Ahora Suena</li>
+            </ul>
+        </div>
+        <div class="click-wheel-container">
+            <div class="click-wheel">
+                <div class="menu-button">MENU</div>
+                <div class="forward-button">&gt;&gt;</div>
+                <div class="backward-button">&lt;&lt;</div>
+                <div class="play-pause-button">||</div>
+                <div class="center-button"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
